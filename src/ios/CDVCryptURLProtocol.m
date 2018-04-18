@@ -56,7 +56,7 @@ static NSString* const kExcludeFiles[] = { };
         return NO;
     }
 
-    NSLog(@"%@", url.path);
+    //NSLog(@"%@", url.path);
     
     NSString *wwwPath = [[NSBundle mainBundle].resourcePath stringByAppendingString:@"/www/"];
     NSString *checkPath = [url.path stringByReplacingOccurrencesOfString:wwwPath withString:@""];
